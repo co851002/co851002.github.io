@@ -452,15 +452,15 @@
         // -------------
         var $owlClients = $("#client-logos");
         $owlClients.owlCarousel({
-            autoplay: true,
+            autoplay: 1000,
             autoplaySpeed: 1000,
-            autoplayTimeout: 2000,
-            loop: false,
+            autoplayTimeout: 1000,
+            loop: true,
             stagePadding: 0,
             autoplayHoverPause: false,
-            smartSpeed: 1200,
-            rewind: true,
-            center: false,
+            smartSpeed: 1000,
+            rewind: false,
+            center: true,
             dots: false,
             responsive: {
                 0: {
