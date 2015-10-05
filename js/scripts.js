@@ -458,6 +458,8 @@
             loop: true,
             stagePadding: 0,
             autoplayHoverPause: false,
+             //Auto height
+            autoHeight : false,
             smartSpeed: 1000,
             rewind: false,
             center: true,
