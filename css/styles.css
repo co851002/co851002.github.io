@@ -3947,6 +3947,13 @@ body {
 /*======================================
 = Footer Section                       =
 ======================================*/
+.footer-logo img {
+    left: 50%;
+    position: relative;
+    margin-left: -68px;
+    /* border: 2px solid red; */
+    border-radius: 118px;
+}
 #logo-svg {
   height: 70px;
   width: 100%;
