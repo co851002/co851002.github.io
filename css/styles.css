@@ -1,4 +1,4 @@
-/*  
+/*
     =====================
     Base styles
     --------------
@@ -13,17 +13,29 @@
     |__ Home Section Texts
     Typography
     Atmosphere
-    Hacks 
+    Hacks
 */
 /*
   ========================================
   Genaral styles
   ========================================
 */
-/* 
+/*
  Body text
  -------------------------
  */
+
+ .footer-social {
+    display: none;
+}
+
+.footer-logo {
+    display: none;
+}
+
+footer.footer-section.section.no-padding-bottom {
+    padding-top: 0;
+}
 body {
   color: #0c0c17;
   overflow-x: hidden;
@@ -43,7 +55,7 @@ body ::selection {
 p {
   margin: 0 0 21px;
 }
-/* 
+/*
  Links
  -------------------------
  */
@@ -73,9 +85,9 @@ ul,
 ol {
   margin: 0 0 1.5em 0;
 }
-/* 
+/*
  Headings
-------------------------- 
+-------------------------
 */
 h1,
 h2,
@@ -178,7 +190,7 @@ hr {
 .text-uppercase      { text-transform: uppercase; }
 .text-capitalize     { text-transform: capitalize; }
 */
-/*  
+/*
     ======================
     Modules styles
     --------------
@@ -637,7 +649,7 @@ hr {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
 }
-/* 
+/*
  Ripple Effect
  -------------------------
  */
@@ -690,7 +702,7 @@ hr {
   -webkit-animation: ripple 0.5s ease-out;
           animation: ripple 0.5s ease-out;
 }
-/* 
+/*
  Animated Navicon
  -------------------------
  */
@@ -721,7 +733,7 @@ hr {
   -webkit-transition: top 0.14s ease-in, -webkit-transform 0.22s ease-in-out 0.14s;
           transition: top 0.14s ease-in, transform 0.22s ease-in-out 0.14s;
 }
-/* 
+/*
  Loaders
  -------------------------
  */
@@ -877,7 +889,7 @@ hr {
   font-family: 'Lato', sans-serif;
   text-transform: capitalize;
 }
-/* 
+/*
  Home Section Texts
  -------------------------
  */
@@ -1057,7 +1069,7 @@ hr {
   padding-left: 10px;
   margin-bottom: 0;
 }
-/* 
+/*
  Sections Titles
  -------------------------
  */
@@ -1107,7 +1119,7 @@ hr {
 .section-title-small .section-title-heading:after {
   content: none;
 }
-/* 
+/*
  Emphasis & misc
  -------------------------
  */
@@ -1228,7 +1240,7 @@ small,
 .col-middle {
   vertical-align: middle;
 }
-/* 
+/*
  Sections Layout
  -------------------------
  */
@@ -1518,7 +1530,7 @@ small,
 }
 /*
   ========================================
-                Navbar 
+                Navbar
   ========================================
 */
 .navbar {
@@ -1751,7 +1763,7 @@ small,
   width: 100%;
   bottom: 0;
 }
-/* 
+/*
  Genaral Controls Modifications
  -------------------------
  */
@@ -1855,7 +1867,7 @@ small,
           transform: translateX(0) translateY(-50%);
   opacity: 1;
 }
-/* 
+/*
  Carosel indicators
  -------------------------
  */
@@ -1872,7 +1884,7 @@ small,
   width: 8px;
   height: 8px;
 }
-/* 
+/*
  Making Bootstrap carousel fade instead of sliding
  -------------------------
  */
@@ -1897,7 +1909,7 @@ small,
 .carousel-fade .carousel-control {
   z-index: 2;
 }
-/* 
+/*
  Falling Carousel Indicators Style
  -------------------------
  */
@@ -1964,7 +1976,7 @@ small,
 .dotstyle-fall div.active span {
   opacity: 0;
 }
-/* 
+/*
  Filling Carousel Indicators Style
  -------------------------
  */
@@ -2288,7 +2300,7 @@ small,
   width: 0;
   border-radius: 0 2px 2px 0;
 }
-/* 
+/*
     =========================
     Layout styles
     --------------
@@ -2561,7 +2573,7 @@ body {
 .home-bg {
   background-image: url(../img/backgrounds/home-background-01.jpg);
 }
-/* 
+/*
  Home section Owl slider Backgrounds
  -------------------------
  */
@@ -2643,7 +2655,7 @@ body {
     background-image: url("../img/backgrounds/home-background-03@lg2x.jpg");
   }
 }
-/* 
+/*
  Home section SlideShow Backgrounds
  -------------------------
  */
@@ -3987,7 +3999,7 @@ body {
   line-height: 37px;
   font-size: 16px;
 }
-/* 
+/*
  Go Top Button
  -------------------------
  */
@@ -4201,17 +4213,17 @@ body {
   max-width: 100%;
 }
 .portfolio-area .portfolio-cover {
-  cursor: 
-  
-  
-  
-  
+  cursor:
+
+
+
+
   -moz-zoom-in;
-  cursor: 
-  
-  
-  
-  
+  cursor:
+
+
+
+
   -zoom-in;
   width: 100%;
   cursor: pointer;
@@ -4290,42 +4302,42 @@ body {
   width: 100%;
 }
 lesshat-selector {
-  -lh-property: 0; } 
+  -lh-property: 0; }
 @-webkit-keyframes fadeInRight{ 0% { -webkit-transform: translateX(20px); opacity: 0; } 100% { -webkit-transform: translateX(0); opacity: 1; }}
 @-moz-keyframes fadeInRight{ 0% { -moz-transform: translateX(20px); opacity: 0; } 100% { -moz-transform: translateX(0); opacity: 1; }}
 @-o-keyframes fadeInRight{ 0% { -o-transform: translateX(20px); opacity: 0; } 100% { -o-transform: translateX(0); opacity: 1; }}
 @keyframes fadeInRight{ 0% {-webkit-transform: translateX(20px);-moz-transform: translateX(20px);-ms-transform: translateX(20px);transform: translateX(20px); opacity: 0; } 100% {-webkit-transform: translateX(0);-moz-transform: translateX(0);-ms-transform: translateX(0);transform: translateX(0); opacity: 1; };
 }
 lesshat-selector {
-  -lh-property: 0; } 
+  -lh-property: 0; }
 @-webkit-keyframes fadeInLeft{ 0% { -webkit-transform: translateX(-20px); opacity: 0; } 100% { -webkit-transform: translateX(0); opacity: 1; }}
 @-moz-keyframes fadeInLeft{ 0% { -moz-transform: translateX(-20px); opacity: 0; } 100% { -moz-transform: translateX(0); opacity: 1; }}
 @-o-keyframes fadeInLeft{ 0% { -o-transform: translateX(-20px); opacity: 0; } 100% { -o-transform: translateX(0); opacity: 1; }}
 @keyframes fadeInLeft{ 0% {-webkit-transform: translateX(-20px);-moz-transform: translateX(-20px);-ms-transform: translateX(-20px);transform: translateX(-20px); opacity: 0; } 100% {-webkit-transform: translateX(0);-moz-transform: translateX(0);-ms-transform: translateX(0);transform: translateX(0); opacity: 1; };
 }
 lesshat-selector {
-  -lh-property: 0; } 
+  -lh-property: 0; }
 @-webkit-keyframes fadeOutRight{ 0% { -webkit-transform: translateX(0); opacity: 1; } 100% { -webkit-transform: translateX(20px); opacity: 0; }}
 @-moz-keyframes fadeOutRight{ 0% { -moz-transform: translateX(0); opacity: 1; } 100% { -moz-transform: translateX(20px); opacity: 0; }}
 @-o-keyframes fadeOutRight{ 0% { -o-transform: translateX(0); opacity: 1; } 100% { -o-transform: translateX(20px); opacity: 0; }}
 @keyframes fadeOutRight{ 0% {-webkit-transform: translateX(0);-moz-transform: translateX(0);-ms-transform: translateX(0);transform: translateX(0); opacity: 1; } 100% {-webkit-transform: translateX(20px);-moz-transform: translateX(20px);-ms-transform: translateX(20px);transform: translateX(20px); opacity: 0; };
 }
 lesshat-selector {
-  -lh-property: 0; } 
+  -lh-property: 0; }
 @-webkit-keyframes fadeOutLeft{ 0% { -webkit-transform: translateX(0); opacity: 1; } 100% { -webkit-transform: translateX(-20px); opacity: 0; }}
 @-moz-keyframes fadeOutLeft{ 0% { -moz-transform: translateX(0); opacity: 1; } 100% { -moz-transform: translateX(-20px); opacity: 0; }}
 @-o-keyframes fadeOutLeft{ 0% { -o-transform: translateX(0); opacity: 1; } 100% { -o-transform: translateX(-20px); opacity: 0; }}
 @keyframes fadeOutLeft{ 0% {-webkit-transform: translateX(0);-moz-transform: translateX(0);-ms-transform: translateX(0);transform: translateX(0); opacity: 1; } 100% {-webkit-transform: translateX(-20px);-moz-transform: translateX(-20px);-ms-transform: translateX(-20px);transform: translateX(-20px); opacity: 0; };
 }
 lesshat-selector {
-  -lh-property: 0; } 
+  -lh-property: 0; }
 @-webkit-keyframes fadeInDown{ 0% { -webkit-transform: translateY(-20px); opacity: 0; } 100% { -webkit-transform: translateY(0); opacity: 1; }}
 @-moz-keyframes fadeInDown{ 0% { -moz-transform: translateY(-20px); opacity: 0; } 100% { -moz-transform: translateY(0); opacity: 1; }}
 @-o-keyframes fadeInDown{ 0% { -o-transform: translateY(-20px); opacity: 0; } 100% { -o-transform: translateY(0); opacity: 1; }}
 @keyframes fadeInDown{ 0% {-webkit-transform: translateY(-20px);-moz-transform: translateY(-20px);-ms-transform: translateY(-20px);transform: translateY(-20px); opacity: 0; } 100% {-webkit-transform: translateY(0);-moz-transform: translateY(0);-ms-transform: translateY(0);transform: translateY(0); opacity: 1; };
 }
 lesshat-selector {
-  -lh-property: 0; } 
+  -lh-property: 0; }
 @-webkit-keyframes fadeOutDown{ 0% { -webkit-transform: translateY(0); opacity: 1; } 100% { -webkit-transform: translateY(20px); opacity: 0; }}
 @-moz-keyframes fadeOutDown{ 0% { -moz-transform: translateY(0); opacity: 1; } 100% { -moz-transform: translateY(20px); opacity: 0; }}
 @-o-keyframes fadeOutDown{ 0% { -o-transform: translateY(0); opacity: 1; } 100% { -o-transform: translateY(20px); opacity: 0; }}
@@ -6850,7 +6862,7 @@ li.comment-item {
     padding-bottom: 100px;
   }
 }
-/*  
+/*
     Responsive styles
     --------------
     Contents
@@ -7094,7 +7106,7 @@ min-width: 768px
     -webkit-transform: translate3d(0, -100%, 0);
             transform: translate3d(0, -100%, 0);
   }
-  /* 
+  /*
  Falling Carousel Indicators Style
  -------------------------
  */
@@ -7134,7 +7146,7 @@ min-width: 768px
     -webkit-transform: translate3d(0, 200%, 0);
             transform: translate3d(0, 200%, 0);
   }
-  /* 
+  /*
  Filling Carousel Indicators Style
  -------------------------
  */
